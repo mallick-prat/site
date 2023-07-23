@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -100,6 +101,19 @@ I’m passionate about civic engagement, electoral innovation, national security
   <a className="block hover:font-bold" href="https://www.linkedin.com/in/mallickprat/" target = "_blank"><p>LinkedIn</p></a>
   <a className="block  hover:font-bold" href="/https://iop.harvard.edu/" target = "_blank"><p>Harvard IOP</p></a>
   
+</div>
+<hr className="h-px my-8 bg-gray-200 border-1 dark:bg-gray-700"></hr>
+
+<div className="flex mb-4">
+  <div className="flex flex-col justify-center w-1/2 h-24 px-4">
+    <a href="/" target="_blank">
+      <button className="hover:font-bold hover:text-black">
+        <div className="text-gray-800 text-lg">Forging the Fourth Offset</div>
+        <div className="text-gray-800">July 2023</div>
+      </button>
+    </a>
+  </div>
+  <div className="w-1/2 bg-gray-00 h-24"></div>
 </div>
 </div>
 
